@@ -73,6 +73,12 @@ export default class Preload extends Phaser.Scene {
     this.load.video('HowToPlay', './assets/Images/HowToPlay.mp4');
     this.load.video('tutorial', './assets/Images/Tutorial.mp4');
     this.load.video('cinematicaTimeOut', './assets/Images/cinematicaTimeOut.mp4');
+
+    this.load.image("fondoEscenario1", "./assets/Images/aaFondo1.jpg");
+    this.load.image("tank1", "./assets/images/aaTank1.png");
+    this.load.image("tank2", "./assets/images/aaTank2.png");
+    this.load.image("tank3", "./assets/images/aaTank3.png");
+    this.load.image("tank4", "./assets/images/aaTank4.png");
   }
   
 

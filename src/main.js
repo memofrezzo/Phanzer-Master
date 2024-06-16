@@ -2,6 +2,7 @@ import Phaser from "phaser";
 import Preload from "./scenes/Preload";
 import Menu from "./scenes/Menu";
 import Nivel1 from "./scenes/Nivel1";
+import Escenario1 from "./scenes/Escenario1";
 import GameOver from "./scenes/GameOver";
 import Win from "./scenes/Win";
 import Creditos from "./scenes/Creditos";
@@ -46,7 +47,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [Preload, Login, Menu, HowToPlay, Nivel1, GameOver, WinCinematica, TimeOutCinematica, Win, Creditos, UI],
+  scene: [Preload, Login, Menu, HowToPlay, Escenario1, Nivel1, GameOver, WinCinematica, TimeOutCinematica, Win, Creditos, UI],
 };
 
 export default new Phaser.Game(config);
